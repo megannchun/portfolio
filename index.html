@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widthh,initial-scale=1.0" />
+        
+        <title>Megan's Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        
+        <!-- Style sheet fonts -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Inter|Inter:1, 10, 20, 30, 50, 100, 300,400,500, 600,700" rel='stylesheet'>
+        
+    </head>
+    
+    <body>
+
+        <div id="header">
+            <img src="images/stars.png" id="stars">
+            <nav>
+                <div class="nav-logo">
+                    <a href="index.html"><img src="images/logo1.png" width="75"></a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#projects-title">My Projects</a></li>
+                        <li><a href="#aboutMe">About Me</a></li>
+                        <li><a href="#contact">Connect</a></li>
+                    </ul>
+                </div>
+            </nav> 
+
+            <section id="intro">
+                <div>
+                    <div class="title">
+                        <h1>hi there ✨,<br>
+                        welcome to my website!</h1>
+                    </div>
+                    
+                    <div class="typing">
+                        <h5>i'm megan, a highschool student and <span class="auto-type"></span></h5>
+                    </div>
+                </div>  
+                <img src="images/clouds.png" id="clouds">
+                <div class="background-clouds">
+                <img src="images/cloudmove.png" id="cloudmove">
+                <img src="images/cloudmove2.png" id="cloudmove2">
+                </div>
+            </section> 
+
+            
+
+        </div>
+        
+    
+        <div id="myProjects">
+            <div id="projects-title" class="projects-title">
+                <h6>Lastest Projects</h6>
+            </div>
+            <div class="container">
+                <div class="card" data-tilt>
+                    <img class="card-image" src="images/card-1.png">
+                    <h2>Menu Ordering System</h2>
+                    <p>My menu ordering system was created using Tkinter, for my IC201 course as my final project. 
+                        It was my first time working with Tkinter which is the built in graphical user interface 
+                        (GUI) for Python, so it was a new experience.</p>
+                    <a href="https://github.com/megc11315/ICS201-Cafe-Menu/blob/main/Megan'sMenuOrderingSystem.py" target="_blank">Learn More</a>
+                </div>
+                <div class="card" data-tilt>
+                    <img class="card-image" src="images/card-2.png">
+                    <h2>My Website Portfolio</h2>
+                    <p>My first experience building and launching a website. My personal webiste portfolio enabled me to 
+                        explore UI/UX design while integrating my knowledge of HTML, CSS and Javascript, which I hope to 
+                        continue to improve in the future!</p>
+                    <a href="https://github.com/megc11315/Megan-Website" target="_blank">Learn More</a>
+                </div>
+                <div class="card" data-tilt>
+                    <img class="card-image" src="images/card-3.png">
+                    <h2>Settlemize</h2>
+                    <p>Settlemize is an all in one tool curated for new immigrents to Canada. Created as a submission for Hack the 6ix 2022, 
+                        Settlemize is a website that targets two of the most common struggles that immigrants face, the language 
+                        barrier and unemployment.</p>
+                    <a href="https://devpost.com/software/settlemize-byg3pn" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+       
+        <div id="aboutMe">
+            <div class="content">
+                <a href="https://open.spotify.com/user/meg11315?si=2b7aee3826ed4fbf" target="_blank"><img class="about-image" data-tilt src="images/aboutme.png" alt=""/></a>
+                <div class="about-info">
+                    <h6>About Me</h6>
+                    <p>I'm Megan, an incoming sophmore! I’ve always loved being able to contribute to new and innovative ideas, while being able to make a positive impact on our world, hence why I got into coding. 
+                        Coding is a passion and skill, which I hope to continue to grow and improve upon as I gain more real world experience. I had the opportunity this summer to learn about HTML, CSS and Javascript,
+                        and although I am still very much a beginner, I hope to showcase my growth through my projects such as this website. I’m always open to new tips and tricks to improve my skills, so feel free to contact me via the form below, or message
+                        me through LinkedIn!</p>
+                    <a class="resume-btn" href="Megan_Chun_Resume.pdf" download="Megan_Chun_Resume.pdf" target="_blank">Check Out My Resume 📝</a>
+                </div>
+            </div>
+        </div>
+    
+
+<!-- 
+        <div class="sub_header">
+            <h3>I'm Megan, I student and aspiring computer scientist! I'm currently learning HTML and CSS...hence this website.</h3>
+
+            <h3>my hobbies:</h3>
+            <ul class="hobbies">
+                <li>coding</li>
+                <li>cooking</li>
+                <li>bubble tea</li>
+            </ul>
+        </div>
+    --> 
+<!--
+        <section id="contact">
+            <div class="contact-title">
+                <h6>Lets get in touch! </h6>
+            </div>
+
+            <form id="contact-form" action="mail" method="POST">
+                <div class=form-group>
+                    <label for="name">Name</label>
+                    <input type="text"
+                    name="name"
+                    id="name"
+                    required
+                    class="form-element"
+                    placeholder="Jane Doe"/>
+                </div>
+                <div class=form-group>
+                    <label for="email">Email</label>
+                    <input type="email"
+                    name="email"
+                    id="email"
+                    required
+                    class="form-element"
+                    placeholder="jane.doe@example.com"/>
+                </div>
+                <div class=form-group>
+                    <label for="subject">Subject</label>
+                    <input type="text"
+                    name="subject"
+                    id="subject"
+                    required
+                    class="form-element"/>
+                </div>
+                <div class=form-group>
+                    <label for="message" class="message-group">Message</label>
+                    <textarea 
+                        name="message"
+                        id="message"
+                        class="form-element-message"> 
+                    </textarea>
+                </div>
+                <div class="sumbit-group">
+                    <input type="submit" value="Send Message"/>
+                </div> 
+            </form>
+        </section>
+-->
+    
+    
+        <div id="contact">
+            <div class="contact-title">
+                <h6>Connect With Me</h6>
+                <p>Want to connect or have any questions? Feel free to connect with me using the links provided below!</p>
+            </div>
+            <ul class="socials">
+                    <li><a href="mailto: megan.chun@outlook.com"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/meganchun" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/meganchun" target="_blank"><i class="fa fa-github"></i></a></li>
+            <!-- <button class="btn"><i href="Megan_Chun_Resume.pdf" download="Megan_Chun_Resume.pdf" target="_blank" class="fa fa-folder"></i></button> -->
+            </ul>
+        </div>
+      
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["software developer in training", "bubble tea lover"],
+                typeSpeed: 150,
+                backSpeed: 100,
+                loop: true
+            })
+        </script>
+        <script src="vanilla-tilt.js"></script>    
+
+         
+        <div id="footer">
+            <div class="footer-content">
+                <p>made with ❤️</p>  
+                <p>2022 megan chun. designed and coded by me :)</p>
+            </div>
+        </div>
+        
+        
+    
+    <script type="text/javascript" src="code.js"></script>
+    </body>
+
+</html>
